@@ -4,7 +4,7 @@ function addNewTask() {
 
   const taskText = inputField.value.trim();
   if (!taskText) {
-    alert("Enter a task: ");
+    alert("Enter a task! ");
     return;
   }
 
