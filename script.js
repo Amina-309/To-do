@@ -10,12 +10,12 @@ function addNewTask() {
 
   const listItem = document.createElement("li");
   listItem.textContent = taskText;
-
   const removeButton = document.createElement("button");
   removeButton.textContent = "Remove";
   removeButton.addEventListener("click", () => listContainer.removeChild(listItem));
 
   listItem.appendChild(removeButton);
+
   listContainer.appendChild(listItem);
   inputField.value = "";
 }
